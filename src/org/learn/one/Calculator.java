@@ -1,7 +1,7 @@
 package org.learn.one;
 
 public class Calculator {
-	char opertaor ( '+','-','*','/');
+	  '+','-','*','/';
 	void c1(int num1, int num2 ) {
 	
 	char operator;
