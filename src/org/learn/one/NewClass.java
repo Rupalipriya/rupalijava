@@ -1,6 +1,8 @@
 package org.learn.one;
 
 //jp multiply two numbers
+
+//Please change class name give proper class name
 public class NewClass {
 	void multiply(int a, int b) {
 		int c = a * b;
@@ -12,3 +14,4 @@ public class NewClass {
 		m1.multiply(23, 120);
 	}
 }
+

@@ -1,6 +1,8 @@
 package org.learn.one;
 
 //Java Program to print Fibonacci Series using for loop.
+
+//chnage the logic as this logic not works
 public class Facbonacci {
 	int i, n1 = 1, n2 = 2, n3;
 
@@ -10,6 +12,7 @@ public class Facbonacci {
 			n3 = n1 + n2;
 			n1 = n2;
 			n2 = n3;
+			
 		}
 	}
 

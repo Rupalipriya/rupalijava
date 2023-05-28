@@ -13,7 +13,7 @@ public class Perimeter {
 
 	public static void main(String[] args) {
 		Perimeter perimeter = new Perimeter();
-		perimeter.p1(3, 7);
+		perimeter.p1(3f, 7f);
 	}
 
 }

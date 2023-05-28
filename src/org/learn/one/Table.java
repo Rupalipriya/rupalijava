@@ -1,6 +1,13 @@
 package org.learn.one;
 
 //. Write a Java program that takes a number as input and prints its multiplication table up to 10.
+
+/* change the logic
+ * for(1-10){
+for(j=2;j<=2;j++)
+sop(j +"*" + i +"="+j*i)
+}
+ */
 public class Table {
 	void t1() {
 		int mul = 1;
