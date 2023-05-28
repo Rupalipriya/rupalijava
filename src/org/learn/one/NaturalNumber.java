@@ -6,7 +6,7 @@ public class NaturalNumber {
 
 	void n1(int num) {
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i <= 10; i++) {
 			sum = sum + i;
 		}
 		System.out.println("Sum of numbers  " + sum);

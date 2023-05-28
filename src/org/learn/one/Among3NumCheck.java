@@ -1,7 +1,9 @@
 package org.learn.one;
 
 // WAJP to find a largest among 3 numbers.
-public class Among {
+
+//change the class name,give proper name
+public class Among3NumCheck {
 	void a1(int a, int b, int c) {
 
 		if (a > b && a > c) {
@@ -15,7 +17,7 @@ public class Among {
 	}
 
 	public static void main(String[] args) {
-		Among a = new Among();
+		Among3NumCheck a = new Among3NumCheck();
 		a.a1(77, 45, 66);
 	}
 

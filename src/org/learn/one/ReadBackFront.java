@@ -2,6 +2,7 @@ package org.learn.one;
 /*
  * Write a program to check if elements of an array are same or not it read from front or back. 
  */
+//issue
 public class ReadBackFront {
 	void readbackfront() {
 		int a[]= {1,2,4,5,2,1};

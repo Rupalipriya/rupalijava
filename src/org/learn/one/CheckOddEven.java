@@ -1,7 +1,7 @@
 package org.learn.one;
 
 //WAJP to check if number is even or odd.
-public class Mode {
+public class CheckOddEven {
 	void m1(int a) {
 		if (a % 2 == 0) {
 			System.out.println("even");
@@ -12,7 +12,7 @@ public class Mode {
 	}
 
 	public static void main(String[] args) {
-		Mode ma = new Mode();
-		ma.m1(27);
+		CheckOddEven ma = new CheckOddEven();
+		ma.m1(2);
 	}
 }

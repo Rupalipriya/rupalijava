@@ -1,49 +1,46 @@
 package org.learn.one;
 
+/*
+ * Java Program to make a Simple Calculator using Switch Case.
+ * m1(int a,int b,char ch) {
+switch(ch)
+case '+'
+a+b
+case -
+a-b
+case 
+}
+main(){
+m1(3,6,*)
+done 
+ */
 public class Calculator {
-	  '+','-','*','/';
-	void c1(int num1, int num2 ) {
-	
-	char operator;
-	
-	switch('c')
-    {
-        case '+':
-        	operator=(num1+num2);
-        	System.out.println("addition");
+	void cal(int a, int b, char ch) {
+		switch (ch) {
+		case '+':
+			System.out.println(a + b);
+			break;
+		case '-':
+			System.out.println(a - b);
+			break;
+		case '*':
+			System.out.println(a * b);
+			break;
 
-            break;
+		case '/':
+			System.out.println(a / b);
+			break;
 
-        case '-':
+		case '%':
+			System.out.println(a % b);
+			break;
+		}
 
-
-            break;
-
-        case '*':
-
-
-            break;
-
-        case '/':
-
-
-            break;
-
-        /* If user enters any other operator or char apart from
-         * +, -, * and /, then display an error message to user
-         * 
-         */
-        default:
-            System.out.printf("You have entered wrong operator");
-            return;
-    }
-
-    System.out.println(num1+" "+operator+" "+num2+": "+output);
-}
-}
+	}
 
 	public static void main(String[] args) {
-		
+		Calculator calculator=new Calculator();
+		calculator.cal(2, 3, '*');
 	}
 
 }

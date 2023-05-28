@@ -1,4 +1,6 @@
 package org.learn.one;
+//WAP in java check max number 
+//issue = i m able to understand logic
 
 public class MaxNumber {
 	
