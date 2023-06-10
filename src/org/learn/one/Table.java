@@ -7,14 +7,15 @@ package org.learn.one;
 for(j=2;j<=2;j++)
 sop(j +"*" + i +"="+j*i)
 }
+done 
  */
 public class Table {
 	void t1() {
-		int mul = 1;
+		int mul = 0;
 		for (int i = 1; i <= 10; i++) {
-			for (int j = 2; j <= 10; j++) {
-				mul = i * j;
-				System.out.print(" table " + mul);
+			for (int j = 2; j <=2; j++) {
+				mul = j*i;
+				System.out.print(j +"*" + i +"="+j*i);
 			}
 			System.out.println();
 		}

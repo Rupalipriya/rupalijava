@@ -11,8 +11,8 @@ public class RepeateArray {
 	void arr1() {
 		
 	
-		int arr[]={3,2,3,3,5,5};
-		int coun;
+		int arr[]={3,2,2,3,5,5};
+		
 		for(int i=0; i<arr.length; i++){    
 		 int rep = arr[i];
 		 for(int j=i+1;j<arr.length;j++) {

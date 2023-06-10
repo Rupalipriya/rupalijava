@@ -3,7 +3,8 @@ package org.learn.one;
 //WAJP  to check two number are equal or not .
 
 //change the class name,give proper name
-public class Equal {
+//done
+public class CheckTwoNumEqual {
 	void equal(int a, int b) {
 		if (a == b) {
 			System.out.println(" number are equal ");
@@ -13,7 +14,7 @@ public class Equal {
 	}
 
 	public static void main(String[] args) {
-		Equal eq = new Equal();
+		CheckTwoNumEqual eq = new CheckTwoNumEqual();
 		eq.equal(0, 0);
 	}
 }
