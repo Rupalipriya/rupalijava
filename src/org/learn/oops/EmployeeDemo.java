@@ -13,7 +13,7 @@ public class EmployeeDemo {
 		employeeClass .setEmpid(2);
 		employeeClass.setEmpname("rupali");
 		employeeClass.setEmpddesignation("jr. java dev");
-		employeeClass.setEmpsalary(6000);
+		employeeClass.setEmpsalary(60000);
 		employeeClass.setEmpcountry("India");
 		double empsalary=employeeClass.getEmpsalary();
 		String empcountry=employeeClass.getEmpcountry();

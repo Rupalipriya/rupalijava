@@ -16,8 +16,22 @@ c=a/10;2
 d=a%10
  */
 public class SumDigit {
+	int c;
+	int d;
 
+	void sumdidgit(int a) {
+		int sum = 0;
+		c = a / 12;
+		System.out.println(+c);
+		d = a % 12;
+		System.out.println(+d);
+		sum = c + d;
+
+		System.out.println(+c+ +d+ " " +sum);
+	}
+	
 	public static void main(String[] args) {
-		
+		SumDigit sumDigit = new SumDigit();
+		sumDigit.sumdidgit(4);
 	}
 }
