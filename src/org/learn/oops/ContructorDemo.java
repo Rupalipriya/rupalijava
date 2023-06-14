@@ -18,9 +18,8 @@ System.out.println("No argument contr");
 
 
 	public static void main(String[] args) {
-		ContructorDemo contructorDemo=new ContructorDemo();
 		ContructorDemo contructorDemo2=new ContructorDemo("Ram", 101);
-
+		ContructorDemo contructorDemo1=new ContructorDemo();
 	}
 
 }

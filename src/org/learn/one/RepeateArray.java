@@ -1,6 +1,7 @@
 package org.learn.one;
 /*
- * .WAP in java to take a input in an array of size 6 and find repeated element in array.
+ * .WAP in java to take a input in an array of size 6 and
+ find repeated element in array.
 input =5,9,2,9,3,6
  */
 import java.util.Scanner;

@@ -18,7 +18,7 @@ public class ReversStarNestedLoop {
 				System.out.print("*");
 
 			}
-			System.out.println();
+			System.out.println( );
 		}
 
 	}
