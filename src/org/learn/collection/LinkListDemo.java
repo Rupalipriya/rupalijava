@@ -15,7 +15,7 @@ public class LinkListDemo {
 	linkedList.add(76);
 	linkedList.add(12);
 	
-	System.out.println(linkedList);
+	System.out.println("Original list: "+linkedList);
 	
 	linkedList.addFirst(44);//add element at first postion
 	linkedList.addLast(66);////add element at last postion
@@ -27,6 +27,12 @@ public class LinkListDemo {
 	linkedList.remove(3);
 	System.out.println(linkedList);
 	
+//	linkedList.clear();//remove all elements from linklist
+//	System.out.println(linkedList);
+	
+	System.out.println(linkedList.getFirst());//get the first element
+	System.out.println(linkedList.getLast());//get the last element
+	System.out.println(linkedList.get(2));//get the element from specific postion 4
 	
 	}
 	
