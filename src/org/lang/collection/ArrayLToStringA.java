@@ -10,7 +10,7 @@ public class ArrayLToStringA {
 		al.add("hello");
 		al.add("hey");
 		al.add("how");
-	ArrayList<E>
+	//ArrayList<E>
 
 	}
 
