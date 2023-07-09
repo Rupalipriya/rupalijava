@@ -1,17 +1,18 @@
 package org.learn.collection;
 
-public class Student implements Comparable<Student> {
+
+public class Student1 {
 	
 	private String sid;
 	private Integer smarks;
 	private String grade;
 	private String sname;
 	
-	Student(){
+	Student1(){
 	}
 	
 	
-	public Student(String sid, Integer smarks, String grade, String sname) {
+	public Student1(String sid, Integer smarks, String grade, String sname) {
 		super();
 		this.sid = sid;
 		this.smarks = smarks;
@@ -49,9 +50,7 @@ public class Student implements Comparable<Student> {
 		return "Student [sid=" + sid + ", smarks=" + smarks + ", grade=" + grade + ", sname=" + sname + "]";
 	}
 
-	@Override
-	public int compareTo(Student stu) {
-		//return this.smarks.compareTo(stu.smarks);//ascending order
-		return stu.smarks.compareTo(this.smarks);//descending order
-	}
+
+	
+
 }
